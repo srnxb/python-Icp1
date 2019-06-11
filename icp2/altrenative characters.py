@@ -1,8 +1,9 @@
 def string_alternative(t):
-  for i in t[:: 2]:
-    print(i)
+ str1= str[::2]
+ print(str1)
 
-s = "good evening nikitha"
+str = "python and deep learning programming class"
 
-
-string_alternative(s)
+def main():
+  string_alternative(str)
+main()
