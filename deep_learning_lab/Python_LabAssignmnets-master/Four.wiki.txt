@@ -1,0 +1,15 @@
+Lab 1, problem 4
+
+Problem: The problem was to make two lists of students for two seperate classes, then find the students attending both classes and the students who are only attending one class.
+
+Solution:  I started by initializing two lists of students, then I made the lists sets to make comparisons easier.
+
+Output:
+"C:\Users\Katie Williams\PycharmProjects\Lab1\venv\Scripts\python.exe" "C:/Users/Katie Williams/PycharmProjects/Lab1/Four.py"
+{'Diana Prince', 'Natasha Romanov', 'Bruce Wayne'}
+ are the students attending both classes
+{'Tony Stark', 'Bruce Banner', 'Clark Kent'}
+ are the students not attending both classes
+
+Process finished with exit code 0
+ 
