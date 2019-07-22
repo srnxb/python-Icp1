@@ -1,3 +1,4 @@
+
 from tensorboardcolab import *
 from __future__ import print_function
 import os
@@ -154,3 +155,11 @@ def plot_histogram(h, Xsize=6, Ysize=10):
 plot_histogram(history.history, Xsize=8, Ysize=12)
 score = model.evaluate(arr_X_valid, arr_Y_valid)
 print('test accuracy', score[1])
+
+# Creating hyperparameter space
+epochs = [5, 10]
+batches = [5, 10, 100]
+optimizers = ['rmsprop', 'adam']
+
+# Creating hyperparameter options
+hyperparameters = dict(optimizer=optimizers, epochs=epochs, batch_size=batches)
